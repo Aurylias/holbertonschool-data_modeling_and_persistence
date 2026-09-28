@@ -1,1 +1,1 @@
-COUNT(*) FROM books;
+SELECT COUNT(*) FROM books;

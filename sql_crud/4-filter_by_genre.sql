@@ -1,1 +1,1 @@
-SELECT title, price WHERE genre = 'Tech' FROM books
+SELECT title, price FROM books WHERE genre = 'Tech'

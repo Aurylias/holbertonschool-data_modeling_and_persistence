@@ -1,0 +1,1 @@
+SUM(stock) FROM books;

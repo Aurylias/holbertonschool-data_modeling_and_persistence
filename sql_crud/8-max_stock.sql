@@ -1,0 +1,1 @@
+MAX(stock) FROM books;

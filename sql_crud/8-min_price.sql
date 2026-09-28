@@ -1,0 +1,1 @@
+MIN(price) FROM books;

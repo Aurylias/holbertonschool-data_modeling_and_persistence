@@ -1,4 +1,4 @@
-SELECT instructors.name AS instructor_name, courses.title AS course_title
+SELECT courses.title AS course_title, instructors.name AS instructor_name
 FROM instructors
 INNER JOIN courses ON courses.instructor_id = instructors.id 
-ORDER BY instructor_name, course_title ASC;
+ORDER BY course_title, instructor_name ASC;

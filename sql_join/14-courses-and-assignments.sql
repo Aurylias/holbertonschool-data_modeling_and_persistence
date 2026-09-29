@@ -1,4 +1,4 @@
-SELECT courses.title AS course_title, assignements.title AS rassignements_title
+SELECT courses.title AS course_title, assignments.title AS assignments_title
 FROM courses
-LEFT JOIN assignements ON courses.id = assignements.course_id
-ORDER BY course_title DESC, rassignements_title ASC;
+LEFT JOIN assignments ON courses.id = assignments.course_id
+ORDER BY course_title DESC, assignments_title ASC;
